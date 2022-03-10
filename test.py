@@ -1,3 +1,5 @@
+from this import d
+from numpy import setdiff1d
 import pandas as pd
 from stoch_rsi import stoch_rsi_tradingview
 from rsi import rsi_tradingview2
@@ -16,6 +18,16 @@ if __name__ == '__main__':
     p2 = Decimal('39269.5')
     u2 = Decimal('37')
     d2 = Decimal('0')
+    算出俩啦 ！！！！https://www.wolframalpha.com/input?i=100+-+100+%2F+%281%2B27305889%2F1205000*8435000%2F438105027%29
+e = 27305889/1205000 ; f = 438105027/8435000 ; g = 100 - 100 / (1+27305889/1205000*8435000/438105027); 
+    100/(100-28.88)-1 = a/b;
+    100/(100-31.29)-1 = c/d;
+    c= 1/14 *37 + 13/14 * a;
+    d= 1/14 *0 + 13/14 * b;
+    e = 1/14 *0 + 13/14 * c;
+    f = 1/14 *30.5 + 13/14 * d;
+    g = 100 - 100 / (1+e/f); 
+    100/(100-31.29)-1 = su2/sd2
 
     28.88/71.12 = su1/sd1
 
