@@ -51,3 +51,4 @@ e = 27305889/1205000 ; f = 438105027/8435000 ; g = 100 - 100 / (1+27305889/12050
     print("\n\nSTOCH_RSI: ")
     for i, v in rsi.items():
          print(f"Date={ohlc.index[i]}\tRSI={rsi[i]}\tK={stochrsi_K[i]}\tD={stochrsi_D[i]}")
+#https://www.tradingview.com/support/solutions/43000502338-relative-strength-index-rsi/
